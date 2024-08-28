@@ -1,0 +1,89 @@
+/* General Body and Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f5f7f9, #e0e0e0); /* Gradient background */
+    color: #333; /* Dark text color for readability */
+}
+
+/* Header Styling */
+header {
+    background: #15bcdd; /* Blue background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+    border-bottom: 4px solid #19aae4; /* Bold blue bottom border */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+/* Task Form Styling */
+#task-form {
+    max-width: 600px;
+    margin: 100px auto 30px auto; /* Adjusted top margin for fixed header */
+    padding: 30px;
+    background: #fff; /* White background for the form */
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1); /* Deeper shadow for contrast */
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #f50d2c; /* Blue color for form headings */
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555; /* Slightly darker text for labels */
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f7f7f7; /* Light gray background for inputs */
+}
+
+textarea {
+    resize: vertical;
+    height: 150px; /* Slightly taller textarea */
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2f08f0; /* Blue button */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #004494; /* Even darker blue on click */
+}
